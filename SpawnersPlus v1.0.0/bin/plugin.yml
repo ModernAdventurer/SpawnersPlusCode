@@ -1,0 +1,10 @@
+main: me.LoneSurvivor.SpawnersPlus.SpawnersPlus
+name: SpawnersPlus
+version: 1.0.0
+author: LoneSurvivor
+api-version: 1.15
+depend: [Vault]
+
+commands:
+  sp:
+  spawnersplus:

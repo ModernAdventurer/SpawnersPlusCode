@@ -1,0 +1,115 @@
+Speed:
+  StartingPrice: 100
+  PriceMultiplier: 1.5
+  UpgradeCap: 5
+  DefaultSpeed: 20
+  TimerMultiplier: 0.9
+  MaxSpeedVariation: 0
+Quantity:
+  StartingPrice: 100
+  PriceMultiplier: 1.5
+  UpgradeCap: 5
+  DefaultQuantity: 2
+  QuantityPerLevel: 1
+Drop:
+  StartingPrice: 100
+  PriceMultiplier: 1.5
+  UpgradeCap: 5
+  Drops:
+    # Note: These drop changes only apply to spawner spawned mobs as they should
+    # dont add levels to make the entity drop nothing no matter the level
+    BAT: none
+    BEE: none
+    BLAZE:
+      1:
+        BLAZE_ROD: 2
+      2:
+        BLAZE_ROD: 3
+      3:
+        BLAZE_ROD: 4
+      4:
+        BLAZE_ROD: 5
+      5:
+        BLAZE_ROD: 6
+    CAT: none
+    CAVE_SPIDER: none
+    CHICKEN: none
+    COD: none
+    COW: none
+    CREEPER: none
+    DOLPHIN: none
+    DONKEY: none
+    DROWNED: none
+    ELDER_GUARDIAN: none
+    ENDER_DRAGON: none
+    ENDERMAN: none
+    ENDERMITE: none
+    EVOKER: none
+    FOX: none
+    GHAST: none
+    GIANT: none
+    GUARDIAN: none
+    HORSE: none
+    HUSK: none
+    IRON_GOLEM:
+      1:
+        IRON_INGOT: 2
+        POPPY: 1
+      2:
+        IRON_INGOT: 3
+        POPPY: 1
+      3:
+        IRON_INGOT: 4
+        POPPY: 1
+      4:
+        IRON_INGOT: 5
+        POPPY: 2
+      5:
+        IRON_INGOT: 6
+        POPPY: 2
+    LLAMA: none
+    MAGMA_CUBE: none
+    MULE: none
+    MUSHROOM_COW: none
+    OCELOT: none
+    PANDA: none
+    PARROT: none
+    PHANTOM: none
+    PIG:
+      1:
+        PORKCHOP: 2
+      2:
+        PORKCHOP: 3
+      3:
+        PORKCHOP: 4
+      4:
+        PORKCHOP: 5
+      5:
+        PORKCHOP: 6
+    PIG_ZOMBIE: none
+    PILLAGER: none
+    RABBIT: none
+    RAVAGER: none
+    SALMON: none
+    SHEEP: none
+    SHULKER: none
+    SILVERFISH: none
+    SKELETON: none
+    SKELETON_HORSE: none
+    SLIME: none
+    SNOWMAN: none
+    SPIDER: none
+    SQUID: none
+    STRAY: none
+    TRADER_LLAMA: none
+    TROPICAL_FISH: none
+    TURTLE: none
+    VEX: none
+    VILLAGER: none
+    WANDERING_TRADER: none
+    WITCH: none
+    WITHER: none
+    WITHER_SKELETON: none
+    ZOMBIE: none
+    ZOMBIE_HORSE: none
+    ZOMBIE_VILLAGER: none
